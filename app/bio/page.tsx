@@ -18,12 +18,6 @@ const exhibitions = [
   },
   {
     year: 2022,
-    title: "Weight",
-    venue: "Sarah Scout Presents, Melbourne",
-    type: "Solo",
-  },
-  {
-    year: 2022,
     title: "Australian Sculpture Triennial",
     venue: "La Trobe Art Institute, Bendigo",
     type: "Group",
