@@ -3,7 +3,7 @@ import PortraitImage from "@/components/PortraitImage";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Biography and practice of sculptor Sean Hammett",
+  description: "Biography and practice of sculptor Reed Hammett",
 };
 
 // Replace with your Cloudinary public ID for a studio or portrait photo
@@ -54,22 +54,14 @@ export default function BioPage() {
         {/* Bio text */}
         <div className="flex flex-col justify-center">
           <h1 className="font-serif text-4xl md:text-5xl font-light mb-8 leading-tight">
-            Sean Hammett
+            Reed Hammett
           </h1>
           <div className="space-y-4 text-[#6B6B6B] leading-relaxed">
             <p>
-              Sean Hammett is a Melbourne-based sculptor whose practice spans casting, carving,
-              and assemblage. His work explores the physical and psychological weight of
-              materials — how bronze remembers heat, how stone resists, how found objects
-              carry the residue of prior use.
+              Reed Hammett is an artist based in the Pacific Northwest.
             </p>
             <p>
-              Hammett studied fine art at the Victorian College of the Arts (2014–2017) and
-              undertook a studio residency at the Cité Internationale des Arts, Paris (2019).
-              His work is held in private collections across Australia and Europe.
-            </p>
-            <p>
-              He works from a studio in Northcote, Melbourne.
+              He works from Vancouver, Washington
             </p>
           </div>
         </div>
