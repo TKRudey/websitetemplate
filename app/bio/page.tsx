@@ -18,12 +18,6 @@ const exhibitions = [
   },
   {
     year: 2023,
-    title: "Material Witness",
-    venue: "1301SW, Melbourne",
-    type: "Group",
-  },
-  {
-    year: 2023,
     title: "New Acquisitions",
     venue: "TarraWarra Museum of Art, Healesville",
     type: "Group",
