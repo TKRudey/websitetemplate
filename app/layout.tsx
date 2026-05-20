@@ -21,12 +21,12 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sean Hammett — Sculpture",
-    template: "%s — Sean Hammett",
+    default: "Reed Hammett — Sculpture",
+    template: "%s — Reed Hammett",
   },
-  description: "Sculptural artwork by Sean Hammett",
+  description: "Sculptural artwork by Reed Hammett",
   openGraph: {
-    siteName: "Sean Hammett",
+    siteName: "Reed Hammett",
     locale: "en_AU",
     type: "website",
   },

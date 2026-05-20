@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with sculptor Sean Hammett",
+  description: "Get in touch with sculptor Reed Hammett",
 };
 
 const EMAIL = "sean@seanhammett.com"; // Replace with your actual email

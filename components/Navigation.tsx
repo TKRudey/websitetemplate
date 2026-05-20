@@ -19,7 +19,7 @@ export default function Navigation() {
           href="/"
           className="font-serif text-lg tracking-wide hover:opacity-70 transition-opacity"
         >
-          Sean Hammett
+          Reed Hammett
         </Link>
         <ul className="flex items-center gap-8">
           {links.map(({ href, label }) => (

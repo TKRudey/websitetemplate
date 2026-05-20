@@ -6,7 +6,7 @@ export default function PortraitImage({ src }: { src: string }) {
   return (
     <CldImage
       src={src}
-      alt="Sean Hammett"
+      alt="Reed Hammett"
       fill
       className="object-cover"
       sizes="(max-width: 768px) 100vw, 50vw"
