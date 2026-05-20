@@ -17,12 +17,6 @@ const exhibitions = [
     type: "Solo",
   },
   {
-    year: 2023,
-    title: "New Acquisitions",
-    venue: "TarraWarra Museum of Art, Healesville",
-    type: "Group",
-  },
-  {
     year: 2022,
     title: "Weight",
     venue: "Sarah Scout Presents, Melbourne",
