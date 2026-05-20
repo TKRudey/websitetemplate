@@ -1,13 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { CldImage } from "next-cloudinary";
 
-// Replace these with your image paths or Cloudinary public IDs when ready
 const SLIDES = [
-  { placeholder: "#2A2418" },
-  { placeholder: "#1E232A" },
-  { placeholder: "#1E2A1E" },
-  { placeholder: "#2A1E22" },
+  "WhatsApp_Image_2026-05-19_at_20.46.06_m3nhun",
+  "WhatsApp_Image_2026-05-19_at_20.51.35_efukrp",
+  "WhatsApp_Image_2026-05-19_at_20.51.01_wgp6ke",
+  "WhatsApp_Image_2026-05-19_at_20.55.37_ugxdkk",
 ];
 
 export default function ComingSoon() {
@@ -22,14 +22,22 @@ export default function ComingSoon() {
 
   return (
     <div className="fixed inset-0 z-50 overflow-hidden">
-      {SLIDES.map((slide, i) => (
+      {SLIDES.map((id, i) => (
         <div
           key={i}
           className={`absolute inset-0 transition-opacity duration-[1500ms] ease-in-out ${
             i === current ? "opacity-100" : "opacity-0"
           }`}
-          style={{ backgroundColor: slide.placeholder }}
-        />
+        >
+          <CldImage
+            src={id}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+            priority={i === 0}
+          />
+        </div>
       ))}
 
       <div className="absolute inset-0 bg-black/40" />
